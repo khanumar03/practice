@@ -6,7 +6,7 @@ app.use(express.json())
 app.use(cors({origin: "*"}))
 
 app.get("/api", (req,res) => {
-    return res.json({message: "working"})
+    return res.json({message: "Pulling"})
 })
 
 app.listen(5000, () => console.log("server connected"))
